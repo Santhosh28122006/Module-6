@@ -1,3 +1,4 @@
+
 # 🐟 Method Overriding-Fish and Shark Class Inheritance in Python
 
 ## 🧠 AIM:
@@ -15,6 +16,31 @@ To write a Python program that demonstrates class inheritance by creating a pare
 
 ## 💻 PROGRAM:
 
+```
+
+
+class Fish:
+    def type(self):
+        print("fish")
+
+class Shark(Fish):
+    def type(self):
+        print("shark")
+
+obj_goldfish = Fish()
+obj_hammerhead = Shark()
+
+for fish in [obj_goldfish, obj_hammerhead]:
+    fish.type()
+
+
+```
+
 ## OUTPUT
 
+![Screenshot 2025-05-23 213249](https://github.com/user-attachments/assets/42e53e28-2b64-4929-8dd6-cfd6c3adcfac)
+
+
 ## RESULT
+
+Therefore,the given python programm is sucessfully verified.
